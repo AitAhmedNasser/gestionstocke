@@ -16,6 +16,7 @@ public class Utilisateur extends AbstractEntity {
     private String nom;
     private String prenom;
     private String dateDeNaissance;
+    private String mail;
     private String motDePasse;
     @OneToOne
     private Adress adress;
