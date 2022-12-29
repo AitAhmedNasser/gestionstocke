@@ -5,7 +5,7 @@ import jakarta.persistence.MappedSuperclass;
 import jakarta.persistence.Table;
 import lombok.*;
 
-@Builder
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

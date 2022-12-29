@@ -5,7 +5,7 @@ import lombok.*;
 
 import java.util.List;
 
-@Builder
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -22,4 +22,5 @@ public class Fournisseur extends AbstractEntity {
     private String photo;
     @OneToMany(mappedBy = "fournisseur")
     private List<CommandeFournisseur> commandeFournisseurs;
+    
 }
