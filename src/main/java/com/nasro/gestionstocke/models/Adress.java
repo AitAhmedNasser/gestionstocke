@@ -18,4 +18,5 @@ public class Adress extends AbstractEntity {
     private String ville;
     private String codePostal;
     private String pays;
+    private Integer entrepriseId;
 }

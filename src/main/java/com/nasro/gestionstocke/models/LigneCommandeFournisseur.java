@@ -21,4 +21,5 @@ public class LigneCommandeFournisseur extends AbstractEntity {
     private CommandeFournisseur commandeFournisseur;
     private BigDecimal quantité;
     private BigDecimal praixUnitaire;
+    private Integer entrepriseId;
 }

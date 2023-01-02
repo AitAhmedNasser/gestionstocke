@@ -21,7 +21,7 @@ public class Article extends AbstractEntity {
     private BigDecimal praixUnitaireHt;
     private BigDecimal tauxTva;
     private BigDecimal praixUnitaireTtc;
-
+    private Integer entrepriseId;
     private String photo;
     @ManyToOne
     @JoinColumn(name = "idCategory")

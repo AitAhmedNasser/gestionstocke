@@ -21,4 +21,5 @@ public class LigneVente extends AbstractEntity {
     private Vente vente;
     private BigDecimal quantité;
     private BigDecimal praixUnitaire;
+    private Integer entrepriseId;
 }

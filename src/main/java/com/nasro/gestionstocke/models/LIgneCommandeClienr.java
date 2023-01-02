@@ -24,4 +24,5 @@ public class LIgneCommandeClienr extends AbstractEntity {
     private CommandeClient commandeClient;
     private BigDecimal quantité;
     private BigDecimal praixUnitaire;
+    private Integer entrepriseId;
 }
